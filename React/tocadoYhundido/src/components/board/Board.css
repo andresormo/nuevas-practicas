@@ -1,0 +1,36 @@
+.tablero {
+    width: 505px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px; 
+    margin: 50px;
+    margin-bottom: 50px;
+  }
+  
+
+  .casilla {
+    width: 50px;
+    height: 50px;
+    background-color: #e0e0e0;
+    font-size: 24px;
+  }
+
+  .casilla:hover {
+    background-color: #7674e6;
+  }
+
+  .barco{
+    background-color: aqua;
+    z-index: 2;
+  }
+
+  .aguita{
+    background-color: aquamarine;
+  }
+
+  .hundido{
+    background-image: url('./../../assets/descarga.jpg');
+    background-size:cover ;
+    background-position: 0;
+  }
